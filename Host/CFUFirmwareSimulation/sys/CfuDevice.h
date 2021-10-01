@@ -150,7 +150,7 @@ typedef union
             UINT8 RejectReasonCode;
             UINT8 Reserved2[3];
             UINT8 Status;
-            UINT8 Reserved3[2];
+            UINT8 Reserved3[3];
         } CfuOfferResponse;
     } HidCfuOfferResponse;
 } FWUPDATE_OFFER_RESPONSE;
@@ -182,7 +182,7 @@ typedef union
                 UINT16 Reserved0;
                 UINT8 Status;
                 UINT8 Reserved1[3];
-                UINT32 Reserved2[1];
+                UINT32 Reserved2[2];
             } CfuContentResponse;
         } HidCfuContentResponse;
     };
